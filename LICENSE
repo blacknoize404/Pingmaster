@@ -15,7 +15,7 @@ Copyright (c) 2026 barnesinside (blacknoize404). All rights reserved. / Todos lo
 3. Ownership. The Software is licensed, not sold. The author keeps all rights in it, including its names and logos.
 
 4. Third-party components. The Software includes components under their own licenses, which apply to them and not to
-   this agreement: OpenJFX and the Java runtime (GPL-2.0 with the Classpath Exception), the PingUtils and
+   this agreement: OpenJFX and the Java runtime (GPL-2.0 with the Classpath Exception), the NetworkUtils and
    PersistenceUtils libraries (Apache-2.0) and the DM Sans typefaces (SIL Open Font License 1.1). Their texts are
    in the installed application.
 
@@ -39,7 +39,7 @@ Copyright (c) 2026 barnesinside (blacknoize404). All rights reserved. / Todos lo
    nombres y logotipos.
 
 4. Componentes de terceros. El Software incluye componentes con su propia licencia, que se aplica a ellos y no a
-   este acuerdo: OpenJFX y el runtime de Java (GPL-2.0 con la Classpath Exception), las librerías PingUtils y
+   este acuerdo: OpenJFX y el runtime de Java (GPL-2.0 con la Classpath Exception), las librerías NetworkUtils y
    PersistenceUtils (Apache-2.0) y las tipografías DM Sans (SIL Open Font License 1.1). Sus textos están en la
    aplicación instalada.
 

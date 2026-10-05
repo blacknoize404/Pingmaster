@@ -43,7 +43,7 @@ Los paquetes se construyen desde el repositorio privado `Pingmaster-src` con la 
 [MathUtils Studio](https://github.com/blacknoize404/MathUtils-Studio): Maven → ProGuard → jlink →
 jpackage → Inno Setup / deb / rpm. Las librerías que usa son públicas:
 
-- [PingUtils](https://github.com/blacknoize404/PingUtils) — pings programados de actividad de host (Apache-2.0)
+- [NetworkUtils](https://github.com/blacknoize404/NetworkUtils) — latencia de host y monitorización de tráfico de red (Apache-2.0)
 - [PersistenceUtils](https://github.com/blacknoize404/PersistenceUtils) — ajustes en fichero (Apache-2.0)
 
 ## Licencias
