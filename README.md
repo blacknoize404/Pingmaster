@@ -7,9 +7,10 @@
 > **Documentación en español**: [README.es.md](README.es.md)
 
 <p align="center">
-  <img src="docs/images/pingmaster-landing.png" alt="Pingmaster landing view, with the start monitoring and settings buttons" width="32%">
-  <img src="docs/images/pingmaster-timeout.png" alt="Pingmaster statistics view, with the response time chart" width="35%">
+  <img src="docs/images/pingmaster-landing.png" alt="Pingmaster landing view, with the start monitoring and settings buttons" width="24%">
+  <img src="docs/images/pingmaster-timeout.png" alt="Pingmaster statistics view, with the response time and network charts" width="26%">
   <img src="docs/images/pingmaster-settings.png" alt="Pingmaster settings view: host, request type and timings" width="32%">
+  <img src="docs/images/pingmaster-about.png" alt="Pingmaster about view: version, links and barnesinside branding" width="17%">
 </p>
 
 ## What it does

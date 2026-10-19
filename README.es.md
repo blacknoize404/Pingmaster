@@ -5,9 +5,10 @@
 > Funciona en Windows y Linux.
 
 <p align="center">
-  <img src="docs/images/pingmaster-landing.png" alt="Vista principal de Pingmaster, con los botones de iniciar monitorización y ajustes" width="32%">
-  <img src="docs/images/pingmaster-timeout.png" alt="Vista de estadísticas de Pingmaster, con la gráfica de tiempos de respuesta" width="35%">
+  <img src="docs/images/pingmaster-landing.png" alt="Vista principal de Pingmaster, con los botones de iniciar monitorización y ajustes" width="24%">
+  <img src="docs/images/pingmaster-timeout.png" alt="Vista de estadísticas de Pingmaster, con las gráficas de tiempos de respuesta y de red" width="26%">
   <img src="docs/images/pingmaster-settings.png" alt="Vista de ajustes de Pingmaster: host, tipo de petición y tiempos" width="32%">
+  <img src="docs/images/pingmaster-about.png" alt="Vista Acerca de de Pingmaster: versión, enlaces y marca barnesinside" width="17%">
 </p>
 
 ## Qué hace
