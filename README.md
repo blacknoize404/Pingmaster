@@ -4,12 +4,14 @@
 > history and warns you the moment it goes down. It lives in the system tray and stays out of the way.
 > It runs on Windows and Linux.
 
+> **Website**: [barnesinside.is-a.dev/pingmaster](https://barnesinside.is-a.dev/pingmaster/)
+
 > **Documentación en español**: [README.es.md](README.es.md)
 
 <p align="center">
   <img src="docs/images/pingmaster-landing.png" alt="Pingmaster landing view, with the start monitoring and settings buttons" width="24%">
   <img src="docs/images/pingmaster-timeout.png" alt="Pingmaster statistics view, with the response time and network charts" width="26%">
-  <img src="docs/images/pingmaster-settings.png" alt="Pingmaster settings view: host, request type and timings" width="32%">
+  <img src="docs/images/pingmaster-settings.png" alt="Pingmaster settings view: host, request type, network interface and timings" width="32%">
   <img src="docs/images/pingmaster-about.png" alt="Pingmaster about view: version, links and barnesinside branding" width="17%">
 </p>
 <p align="center">
@@ -23,8 +25,11 @@
   schedule — HTTP, HTTPS, ICMP or native ICMP.
 - **Latency statistics.** A rolling chart of response times per host, plus the current method and
   response state at a glance.
+- **Network speed.** Download and upload speed over the latency chart, measured on the adapter you
+  choose: the one that reaches the Internet (automatic), all of them, or a single one — with a button
+  to refresh the list of interfaces.
 - **Overlay modes.** The chart window shrinks into a floating widget or a minimal readout strip that
-  stays on top — lock it and clicks pass straight through (Windows).
+  stays on top — lock it and clicks pass straight through (Windows). Both stay out of the taskbar.
 - **Latency alerts.** A threshold line on the chart and a sound when responses cross it, with your
   own sounds if you like.
 - **Compare and export.** Pin extra hosts on the same chart and download the measurements to CSV.

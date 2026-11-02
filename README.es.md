@@ -4,10 +4,12 @@
 > historial de latencia en vivo y te avisa en cuanto se cae. Vive en la bandeja del sistema y no molesta.
 > Funciona en Windows y Linux.
 
+> **Web**: [barnesinside.is-a.dev/pingmaster](https://barnesinside.is-a.dev/pingmaster/)
+
 <p align="center">
   <img src="docs/images/pingmaster-landing.png" alt="Vista principal de Pingmaster, con los botones de iniciar monitorización y ajustes" width="24%">
   <img src="docs/images/pingmaster-timeout.png" alt="Vista de estadísticas de Pingmaster, con las gráficas de tiempos de respuesta y de red" width="26%">
-  <img src="docs/images/pingmaster-settings.png" alt="Vista de ajustes de Pingmaster: host, tipo de petición y tiempos" width="32%">
+  <img src="docs/images/pingmaster-settings.png" alt="Vista de ajustes de Pingmaster: host, tipo de petición, interfaz de red y tiempos" width="32%">
   <img src="docs/images/pingmaster-about.png" alt="Vista Acerca de de Pingmaster: versión, enlaces y marca barnesinside" width="17%">
 </p>
 <p align="center">
@@ -21,8 +23,12 @@
   intervalo configurable: HTTP, HTTPS, ICMP o ICMP nativo.
 - **Estadísticas de latencia.** Una gráfica deslizante con los tiempos de respuesta por host, además del
   método y el estado de respuesta actuales de un vistazo.
+- **Velocidad de red.** Descarga y subida sobre la gráfica de latencia, medidas en el adaptador que
+  elijas: el que sale a Internet (automático), todos a la vez o uno concreto, con un botón para
+  refrescar la lista de interfaces.
 - **Modos superpuestos.** La ventana del gráfico se reduce a un widget flotante o a una tira mínima de
-  lecturas siempre encima; bloquéala y los clics la atraviesan (Windows).
+  lecturas siempre encima; bloquéala y los clics la atraviesan (Windows). Ninguno sale en la barra de
+  tareas.
 - **Alertas de latencia.** Una línea de umbral en la gráfica y un sonido cuando las respuestas lo
   superan — con tus propios sonidos si quieres.
 - **Compara y exporta.** Añade hosts extra a la misma gráfica y descarga las mediciones en CSV.
