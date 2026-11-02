@@ -12,6 +12,10 @@
   <img src="docs/images/pingmaster-settings.png" alt="Pingmaster settings view: host, request type and timings" width="32%">
   <img src="docs/images/pingmaster-about.png" alt="Pingmaster about view: version, links and barnesinside branding" width="17%">
 </p>
+<p align="center">
+  <img src="docs/images/pingmaster-widget.png" alt="Pingmaster widget mode: the floating latency chart without window chrome" width="30%">
+  <img src="docs/images/pingmaster-minimal.png" alt="Pingmaster minimal mode: a compact readout strip with latency and network speeds" width="32%">
+</p>
 
 ## What it does
 
@@ -19,9 +23,14 @@
   schedule — HTTP, HTTPS, ICMP or native ICMP.
 - **Latency statistics.** A rolling chart of response times per host, plus the current method and
   response state at a glance.
+- **Overlay modes.** The chart window shrinks into a floating widget or a minimal readout strip that
+  stays on top — lock it and clicks pass straight through (Windows).
+- **Latency alerts.** A threshold line on the chart and a sound when responses cross it, with your
+  own sounds if you like.
+- **Compare and export.** Pin extra hosts on the same chart and download the measurements to CSV.
 - **Tray notifications.** Windows balloon notifications and a sound when the host connects or drops,
   so you notice outages without watching the window.
-- **Autostart on login**, configurable timeouts, request rate and ping method.
+- **Autostart on login**, adjustable window opacity, configurable timeouts, request rate and ping method.
 - **It remembers your settings** between runs.
 
 ## Download
@@ -48,6 +57,7 @@ jpackage → Inno Setup / deb / rpm. The libraries it uses are public:
 
 - [NetworkUtils](https://github.com/blacknoize404/NetworkUtils) — host latency and network traffic monitoring (Apache-2.0)
 - [PersistenceUtils](https://github.com/blacknoize404/PersistenceUtils) — file-based settings (Apache-2.0)
+- [BI.Windows.Shell](https://github.com/blacknoize404/BI.Windows.Shell) — Windows dark mode and click-through windows (Apache-2.0)
 
 ## Licenses
 

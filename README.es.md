@@ -10,6 +10,10 @@
   <img src="docs/images/pingmaster-settings.png" alt="Vista de ajustes de Pingmaster: host, tipo de petición y tiempos" width="32%">
   <img src="docs/images/pingmaster-about.png" alt="Vista Acerca de de Pingmaster: versión, enlaces y marca barnesinside" width="17%">
 </p>
+<p align="center">
+  <img src="docs/images/pingmaster-widget.png" alt="Modo widget de Pingmaster: la gráfica de latencia flotante sin marco" width="30%">
+  <img src="docs/images/pingmaster-minimal.png" alt="Modo mínimo de Pingmaster: una tira compacta con la latencia y las velocidades de red" width="32%">
+</p>
 
 ## Qué hace
 
@@ -17,9 +21,15 @@
   intervalo configurable: HTTP, HTTPS, ICMP o ICMP nativo.
 - **Estadísticas de latencia.** Una gráfica deslizante con los tiempos de respuesta por host, además del
   método y el estado de respuesta actuales de un vistazo.
+- **Modos superpuestos.** La ventana del gráfico se reduce a un widget flotante o a una tira mínima de
+  lecturas siempre encima; bloquéala y los clics la atraviesan (Windows).
+- **Alertas de latencia.** Una línea de umbral en la gráfica y un sonido cuando las respuestas lo
+  superan — con tus propios sonidos si quieres.
+- **Compara y exporta.** Añade hosts extra a la misma gráfica y descarga las mediciones en CSV.
 - **Notificaciones en bandeja.** Avisos emergentes de Windows y un sonido cuando el host se conecta o se
   cae, para enterarte de las caídas sin mirar la ventana.
-- **Arranque con la sesión**, timeouts, frecuencia de petición y método de ping configurables.
+- **Arranque con la sesión**, opacidad de las ventanas, timeouts, frecuencia de petición, método de
+  ping y sonidos configurables.
 - **Recuerda tus ajustes** entre ejecuciones.
 
 ## Descarga
@@ -46,6 +56,7 @@ jpackage → Inno Setup / deb / rpm. Las librerías que usa son públicas:
 
 - [NetworkUtils](https://github.com/blacknoize404/NetworkUtils) — latencia de host y monitorización de tráfico de red (Apache-2.0)
 - [PersistenceUtils](https://github.com/blacknoize404/PersistenceUtils) — ajustes en fichero (Apache-2.0)
+- [BI.Windows.Shell](https://github.com/blacknoize404/BI.Windows.Shell) — modo oscuro y ventanas con clic a través en Windows (Apache-2.0)
 
 ## Licencias
 
