@@ -2,7 +2,7 @@
 
 > **A desktop monitor for hosts and APIs**: it pings a target on a schedule, shows the live latency
 > history and warns you the moment it goes down. It lives in the system tray and stays out of the way.
-> It runs on Windows and Linux.
+> It runs on Windows, Linux and macOS.
 
 > **Website**: [barnesinside.is-a.dev/pingmaster](https://barnesinside.is-a.dev/pingmaster/)
 
@@ -40,7 +40,7 @@
 
 ## Download
 
-Get the installer for Windows (`Pingmaster-*-windows-x64-setup.exe`) or the package for your Linux
+Get the installer for Windows, the package for your Linux or the disk image for your Mac
 from the [releases](https://github.com/blacknoize404/Pingmaster/releases):
 
 | Distribution | Package |
@@ -48,7 +48,9 @@ from the [releases](https://github.com/blacknoize404/Pingmaster/releases):
 | Windows 10/11 (x64) | `Pingmaster-*-windows-x64-setup.exe` (Inno Setup, per-user install) |
 | Debian, Ubuntu and derivatives | `pingmaster_*.deb` (`sudo apt install ./pingmaster_*.deb`) |
 | Fedora, openSUSE | `pingmaster-*.rpm` (`sudo dnf install ./pingmaster-*.rpm`) |
-| Any other | `pingmaster-*.tar.gz`, with an `install.sh` that installs it for your user without administrator rights |
+| Any other Linux | `pingmaster-*.tar.gz`, with an `install.sh` that installs it for your user without administrator rights |
+| macOS (Apple Silicon) | `Pingmaster-*-macos-aarch64.dmg` |
+| macOS (Intel) | `Pingmaster-*-macos-x64.dmg` |
 
 Every package brings its own Java runtime — no Java installation needed.
 
@@ -58,7 +60,7 @@ The application window is in Spanish.
 
 The packages are built from the private `Pingmaster-src` repository with the same pipeline that ships
 [MathUtils Studio](https://github.com/blacknoize404/MathUtils-Studio): Maven → ProGuard → jlink →
-jpackage → Inno Setup / deb / rpm. The libraries it uses are public:
+jpackage → Inno Setup / deb / rpm / dmg. The libraries it uses are public:
 
 - [NetworkUtils](https://github.com/blacknoize404/NetworkUtils) — host latency and network traffic monitoring (Apache-2.0)
 - [PersistenceUtils](https://github.com/blacknoize404/PersistenceUtils) — file-based settings (Apache-2.0)

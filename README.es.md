@@ -2,7 +2,7 @@
 
 > **Un monitor de escritorio para hosts y API**: hace ping a un destino según un intervalo, muestra el
 > historial de latencia en vivo y te avisa en cuanto se cae. Vive en la bandeja del sistema y no molesta.
-> Funciona en Windows y Linux.
+> Funciona en Windows, Linux y macOS.
 
 > **Web**: [barnesinside.is-a.dev/pingmaster](https://barnesinside.is-a.dev/pingmaster/)
 
@@ -40,7 +40,7 @@
 
 ## Descarga
 
-Consigue el instalador de Windows (`Pingmaster-*-windows-x64-setup.exe`) o el paquete para tu Linux en
+Consigue el instalador de Windows, el paquete para tu Linux o la imagen de disco para tu Mac en
 los [releases](https://github.com/blacknoize404/Pingmaster/releases):
 
 | Distribución | Paquete |
@@ -48,7 +48,9 @@ los [releases](https://github.com/blacknoize404/Pingmaster/releases):
 | Windows 10/11 (x64) | `Pingmaster-*-windows-x64-setup.exe` (Inno Setup, instalación por usuario) |
 | Debian, Ubuntu y derivadas | `pingmaster_*.deb` (`sudo apt install ./pingmaster_*.deb`) |
 | Fedora, openSUSE | `pingmaster-*.rpm` (`sudo dnf install ./pingmaster-*.rpm`) |
-| Cualquier otra | `pingmaster-*.tar.gz`, con un `install.sh` que lo instala para tu usuario sin permisos de administrador |
+| Cualquier otra Linux | `pingmaster-*.tar.gz`, con un `install.sh` que lo instala para tu usuario sin permisos de administrador |
+| macOS (Apple Silicon) | `Pingmaster-*-macos-aarch64.dmg` |
+| macOS (Intel) | `Pingmaster-*-macos-x64.dmg` |
 
 Cada paquete trae su propio runtime de Java: no hace falta tener Java instalado.
 
@@ -58,7 +60,7 @@ La interfaz está en español.
 
 Los paquetes se construyen desde el repositorio privado `Pingmaster-src` con la misma cadena que
 [MathUtils Studio](https://github.com/blacknoize404/MathUtils-Studio): Maven → ProGuard → jlink →
-jpackage → Inno Setup / deb / rpm. Las librerías que usa son públicas:
+jpackage → Inno Setup / deb / rpm / dmg. Las librerías que usa son públicas:
 
 - [NetworkUtils](https://github.com/blacknoize404/NetworkUtils) — latencia de host y monitorización de tráfico de red (Apache-2.0)
 - [PersistenceUtils](https://github.com/blacknoize404/PersistenceUtils) — ajustes en fichero (Apache-2.0)
